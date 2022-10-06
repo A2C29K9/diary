@@ -16,7 +16,7 @@ if(mui.os.plus){
 }
 
 function 主窗口_创建完毕(){
-	网络操作1.发送网络请求("https://cypress0522.github.io/tools/diary/content.txt","get","text","",5000);
+	网络操作1.发送网络请求("https://cypress0522.github.io/tools/diary/content","get","text","",5000);
 }
 
 function 网络操作1_发送完毕(发送结果,返回信息){
